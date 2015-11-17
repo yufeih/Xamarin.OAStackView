@@ -1,7 +1,9 @@
 build
 *.a
 *.userprefs
+*.designer.cs
 sharpie.cs
 sharpie.enums.cs
 **/bin
 **/obj
+**/packages
