@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02388CA71BFB0966008D6ECD /* OAStackView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02388CA61BFB0966008D6ECD /* OAStackView.h */; };
+		02388CA91BFB0966008D6ECD /* OAStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02388CA81BFB0966008D6ECD /* OAStackView.m */; };
+		02388CAF1BFB0966008D6ECD /* libOAStackView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02388CA31BFB0966008D6ECD /* libOAStackView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02388CB01BFB0966008D6ECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02388C9B1BFB0966008D6ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02388CA21BFB0966008D6ECD;
+			remoteInfo = OAStackView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02388CA11BFB0966008D6ECD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				02388CA71BFB0966008D6ECD /* OAStackView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02388CA31BFB0966008D6ECD /* libOAStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOAStackView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		02388CA61BFB0966008D6ECD /* OAStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAStackView.h; sourceTree = "<group>"; };
+		02388CA81BFB0966008D6ECD /* OAStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAStackView.m; sourceTree = "<group>"; };
+		02388CAE1BFB0966008D6ECD /* OAStackViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAStackViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02388CB41BFB0966008D6ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02388CA01BFB0966008D6ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02388CAB1BFB0966008D6ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02388CAF1BFB0966008D6ECD /* libOAStackView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02388C9A1BFB0966008D6ECD = {
+			isa = PBXGroup;
+			children = (
+				02388CA51BFB0966008D6ECD /* OAStackView */,
+				02388CB21BFB0966008D6ECD /* OAStackViewTests */,
+				02388CA41BFB0966008D6ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02388CA41BFB0966008D6ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02388CA31BFB0966008D6ECD /* libOAStackView.a */,
+				02388CAE1BFB0966008D6ECD /* OAStackViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02388CA51BFB0966008D6ECD /* OAStackView */ = {
+			isa = PBXGroup;
+			children = (
+				02388CA61BFB0966008D6ECD /* OAStackView.h */,
+				02388CA81BFB0966008D6ECD /* OAStackView.m */,
+			);
+			path = OAStackView;
+			sourceTree = "<group>";
+		};
+		02388CB21BFB0966008D6ECD /* OAStackViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				02388CB31BFB0966008D6ECD /* Supporting Files */,
+			);
+			path = OAStackViewTests;
+			sourceTree = "<group>";
+		};
+		02388CB31BFB0966008D6ECD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02388CB41BFB0966008D6ECD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02388CA21BFB0966008D6ECD /* OAStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02388CB71BFB0966008D6ECD /* Build configuration list for PBXNativeTarget "OAStackView" */;
+			buildPhases = (
+				02388C9F1BFB0966008D6ECD /* Sources */,
+				02388CA01BFB0966008D6ECD /* Frameworks */,
+				02388CA11BFB0966008D6ECD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAStackView;
+			productName = OAStackView;
+			productReference = 02388CA31BFB0966008D6ECD /* libOAStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		02388CAD1BFB0966008D6ECD /* OAStackViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02388CBA1BFB0966008D6ECD /* Build configuration list for PBXNativeTarget "OAStackViewTests" */;
+			buildPhases = (
+				02388CAA1BFB0966008D6ECD /* Sources */,
+				02388CAB1BFB0966008D6ECD /* Frameworks */,
+				02388CAC1BFB0966008D6ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02388CB11BFB0966008D6ECD /* PBXTargetDependency */,
+			);
+			name = OAStackViewTests;
+			productName = OAStackViewTests;
+			productReference = 02388CAE1BFB0966008D6ECD /* OAStackViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02388C9B1BFB0966008D6ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Yufei Huang";
+				TargetAttributes = {
+					02388CA21BFB0966008D6ECD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					02388CAD1BFB0966008D6ECD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 02388C9E1BFB0966008D6ECD /* Build configuration list for PBXProject "OAStackView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02388C9A1BFB0966008D6ECD;
+			productRefGroup = 02388CA41BFB0966008D6ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02388CA21BFB0966008D6ECD /* OAStackView */,
+				02388CAD1BFB0966008D6ECD /* OAStackViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02388CAC1BFB0966008D6ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02388C9F1BFB0966008D6ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02388CA91BFB0966008D6ECD /* OAStackView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02388CAA1BFB0966008D6ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02388CB11BFB0966008D6ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02388CA21BFB0966008D6ECD /* OAStackView */;
+			targetProxy = 02388CB01BFB0966008D6ECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02388CB51BFB0966008D6ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02388CB61BFB0966008D6ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02388CB81BFB0966008D6ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		02388CB91BFB0966008D6ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		02388CBB1BFB0966008D6ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OAStackViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02388CBC1BFB0966008D6ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OAStackViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02388C9E1BFB0966008D6ECD /* Build configuration list for PBXProject "OAStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02388CB51BFB0966008D6ECD /* Debug */,
+				02388CB61BFB0966008D6ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02388CB71BFB0966008D6ECD /* Build configuration list for PBXNativeTarget "OAStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02388CB81BFB0966008D6ECD /* Debug */,
+				02388CB91BFB0966008D6ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02388CBA1BFB0966008D6ECD /* Build configuration list for PBXNativeTarget "OAStackViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02388CBB1BFB0966008D6ECD /* Debug */,
+				02388CBC1BFB0966008D6ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02388C9B1BFB0966008D6ECD /* Project object */;
+}
