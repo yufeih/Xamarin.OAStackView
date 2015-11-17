@@ -3,7 +3,7 @@ PROJECT_ROOT=.
 PROJECT=OAStackView.xcodeproj
 TARGET=OAStackView
 
-all: libOAStackView.a
+all: libOAStackView.a sharpie
 
 libOAStackView-i386.a:
 	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphonesimulator -configuration Release clean build
@@ -18,3 +18,6 @@ libOAStackView.a: libOAStackView-i386.a libOAStackView-armv7.a
 
 clean:
 	-rm -f *.a *.dll
+
+sharpie:
+	sharpie bind --output=sharpie --namespace=OAStackView --sdk=iphoneos8.4 OAStackView/*.h

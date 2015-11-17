@@ -1,2 +1,7 @@
 build
 *.a
+*.userprefs
+sharpie.cs
+sharpie.enums.cs
+**/bin
+**/obj
