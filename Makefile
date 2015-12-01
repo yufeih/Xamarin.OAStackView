@@ -12,8 +12,12 @@ libOAStackView-i386.a:
 libOAStackView-armv7.a:
 	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphoneos -arch armv7 -configuration Release clean build
 	-mv $(PROJECT_ROOT)/build/Release-iphoneos/lib$(TARGET).a $@
+	
+libOAStackView-arm64.a:
+	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphoneos -arch arm64 -configuration Release clean build
+	-mv $(PROJECT_ROOT)/build/Release-iphoneos/lib$(TARGET).a $@
 
-libOAStackView.a: libOAStackView-i386.a libOAStackView-armv7.a
+libOAStackView.a: libOAStackView-i386.a libOAStackView-armv7.a libOAStackView-arm64.a
 	xcrun -sdk iphoneos lipo -create -output $@ $^
 
 clean:
