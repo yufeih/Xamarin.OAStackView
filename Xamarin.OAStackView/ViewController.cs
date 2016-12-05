@@ -2,6 +2,8 @@
 
 using UIKit;
 
+using v = OAStackView;
+
 namespace Xamarin.OAStackView.Test
 {
     public partial class ViewController : UIViewController
@@ -14,6 +16,20 @@ namespace Xamarin.OAStackView.Test
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+
+            var stackpanel = new v.OAStackView { 
+                Alignment = v.OAStackViewAlignment.Leading,
+                Distribution = v.OAStackViewDistribution.Fill,
+            };
+
+            stackpanel.AddArrangedSubview(new UIButton(UIButtonType.ContactAdd));
+            stackpanel.AddArrangedSubview(new UIButton(UIButtonType.ContactAdd));
+            stackpanel.AddArrangedSubview(new UIButton(UIButtonType.ContactAdd));
+            stackpanel.AddArrangedSubview(new UIButton(UIButtonType.ContactAdd));
+            stackpanel.AddArrangedSubview(new UIButton(UIButtonType.ContactAdd));
+
+            View = stackpanel;
+
             // Perform any additional setup after loading the view, typically from a nib.
         }
 

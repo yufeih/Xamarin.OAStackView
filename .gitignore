@@ -7,3 +7,5 @@ sharpie.enums.cs
 **/bin
 **/obj
 **/packages
+xcuserdata
+project.xcworkspace

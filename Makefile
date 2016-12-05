@@ -24,4 +24,4 @@ clean:
 	-rm -f *.a *.dll
 
 sharpie:
-	sharpie bind --output=sharpie --namespace=OAStackView --sdk=iphoneos8.4 OAStackView/*.h
+	sharpie bind --output=sharpie --namespace=OAStackView --sdk=iphoneos10.1 OAStackView/Pod/Classes/*.h
