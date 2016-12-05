@@ -2,6 +2,7 @@ build
 *.a
 *.userprefs
 *.designer.cs
+*.nupkg
 sharpie.cs
 sharpie.enums.cs
 **/bin
