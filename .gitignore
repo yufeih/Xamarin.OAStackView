@@ -1,5 +1,6 @@
 build
 *.a
+!libOAStackView.a
 *.userprefs
 *.designer.cs
 sharpie.cs
